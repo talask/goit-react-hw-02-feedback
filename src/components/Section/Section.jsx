@@ -1,10 +1,11 @@
+import { CommonSection } from './Section.styled';
 export const Section = ({title, children}) => {
     return (
-        <section>
+        <CommonSection>
             <div className="container">
-                <p>{title}</p>
+                <p>{title}</p> 
                 {children}
             </div>
-        </section>
+        </CommonSection>
     );
 }
