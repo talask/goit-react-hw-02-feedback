@@ -9,6 +9,7 @@ export const CommonSection = styled.section`
     font-size: 16px;
     color: #111111;
     text-align: center;
+    box-shadow: 1px 1px lightyellow;
 
     div {
         padding: 15px;
